@@ -274,8 +274,11 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
+      "plot": "",
+      "pos_files": "",
       "specctra_dsn": "",
       "step": "",
+      "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -382,7 +385,7 @@
   "sheets": [
     [
       "b49e0e20-ddc2-4eb4-9509-7721d6b2744b",
-      ""
+      "Raiz"
     ]
   ],
   "text_variables": {}
