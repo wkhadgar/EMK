@@ -5557,6 +5557,12 @@
 		(uuid "0a007db0-6837-404a-84f7-a53884f3932b")
 	)
 	(junction
+		(at 52.07 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d951722-1987-466c-a58d-d057c477ffd9")
+	)
+	(junction
 		(at 336.55 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5943,6 +5949,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 214.63) (xy 68.58 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14aac349-c1ec-4b67-9a32-e8eb3e76f496")
+	)
+	(wire
+		(pts
 			(xy 358.14 223.52) (xy 358.14 214.63)
 		)
 		(stroke
@@ -5960,6 +5976,16 @@
 			(type default)
 		)
 		(uuid "17bebe73-6558-4ab6-84d1-c9400fe7cac9")
+	)
+	(wire
+		(pts
+			(xy 52.07 204.47) (xy 60.96 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a95c406-6e4a-4bdc-b594-37361e4aae97")
 	)
 	(wire
 		(pts
@@ -6250,6 +6276,16 @@
 			(type default)
 		)
 		(uuid "4da06341-1b51-4cf8-a9bc-4bdc8ac48645")
+	)
+	(wire
+		(pts
+			(xy 177.8 208.28) (xy 170.18 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e97f213-0e4e-42d4-8ce3-edd5a97e8b1c")
 	)
 	(wire
 		(pts
@@ -6963,6 +6999,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 205.74) (xy 160.02 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9d472b9-f630-46a8-a41f-5cf44e7213e4")
+	)
+	(wire
+		(pts
 			(xy 144.78 123.19) (xy 162.56 123.19)
 		)
 		(stroke
@@ -7000,6 +7046,16 @@
 			(type default)
 		)
 		(uuid "d1a92365-03cd-4647-88e4-9c0e563c953e")
+	)
+	(wire
+		(pts
+			(xy 68.58 194.31) (xy 68.58 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2c31d0a-ae66-49ad-8659-b994b2f5293b")
 	)
 	(wire
 		(pts
@@ -7100,6 +7156,16 @@
 			(type default)
 		)
 		(uuid "e8c9a9c0-a6e6-44b7-a7c7-faf25311a560")
+	)
+	(wire
+		(pts
+			(xy 48.26 204.47) (xy 52.07 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9150b90-265b-4cb1-8a8a-e3ee4de17aae")
 	)
 	(wire
 		(pts
@@ -7242,6 +7308,18 @@
 		(uuid "ff9781b4-74c6-4e91-9b35-c629566e47e9")
 	)
 	(rectangle
+		(start 12.065 159.385)
+		(end 121.285 245.745)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 22d0a458-bdc7-4ea4-bfd2-e9c9ee538992)
+	)
+	(rectangle
 		(start 213.36 159.385)
 		(end 305.435 245.745)
 		(stroke
@@ -7264,6 +7342,18 @@
 			(type none)
 		)
 		(uuid 47c51acb-0cb6-4172-930e-0f97858e0370)
+	)
+	(rectangle
+		(start 121.285 159.385)
+		(end 213.36 245.745)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5a6a8f05-9d7b-47ea-b408-c06b594c3b80)
 	)
 	(rectangle
 		(start 305.435 159.385)
@@ -7377,6 +7467,32 @@
 			)
 		)
 		(uuid "84e10b5d-4e10-4036-9fa9-fa7072bcf7e3")
+	)
+	(text "On-Off RGB VCC MCU"
+		(exclude_from_sim no)
+		(at 65.786 166.37 0)
+		(effects
+			(font
+				(face "Corbel Light")
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "8ca58b9f-a99b-4596-8db0-0cb28815bf08")
+	)
+	(text "On-Off RGB VCC Manual"
+		(exclude_from_sim no)
+		(at 167.259 167.64 0)
+		(effects
+			(font
+				(face "Corbel Light")
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "cc3b0e2c-ea38-4c10-bdeb-04ac8d2e06e3")
 	)
 	(text "USB-C"
 		(exclude_from_sim no)
@@ -7589,6 +7705,28 @@
 			)
 		)
 	)
+	(global_label "MCU_VDD_RGB"
+		(shape input)
+		(at 68.58 194.31 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "392f68e7-9639-4f5b-a4ea-85d9bc755c47")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.58 177.8991 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "J_D-"
 		(shape input)
 		(at 342.9 50.8 0)
@@ -7699,6 +7837,50 @@
 			)
 		)
 	)
+	(global_label "VDD_NRF"
+		(shape input)
+		(at 68.58 214.63 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "705e08dc-741c-487e-861c-d4ead0dc259d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.58 225.9005 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RGB_ON"
+		(shape input)
+		(at 48.26 204.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "75b83b86-2c3f-485e-a3a4-ae69d3d5bb3f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.8362 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "COL2"
 		(shape input)
 		(at 54.61 62.23 90)
@@ -7756,6 +7938,28 @@
 		(uuid "8f616015-b97e-4882-a5b4-38550c9b8179")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 72.39 53.9834 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RGB_VDD"
+		(shape input)
+		(at 177.8 208.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9815bc38-b229-4f4a-9c7f-a1253d80221e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.1914 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7893,6 +8097,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RGB_ON"
+		(shape input)
+		(at 90.17 62.23 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b9129862-f334-4629-b454-263c191ec66b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.17 51.8062 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8064,6 +8290,28 @@
 		(uuid "da2779d5-8756-42ab-8e14-c5c4828b1916")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 59.69 135.8514 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_VDD_RGB"
+		(shape input)
+		(at 156.21 205.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e8adf3ea-fa37-41d2-a8a6-de96649689f8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.7991 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9820,6 +10068,152 @@
 		)
 	)
 	(symbol
+		(lib_id "EMKPower:Si2371EDS")
+		(at 66.04 204.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5587c1f6-974c-4ab9-a4e4-122ad11c3577")
+		(property "Reference" "Q2"
+			(at 72.39 203.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Si2371EDS"
+			(at 72.39 205.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 71.12 206.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/63924/si2371eds.pdf"
+			(at 71.12 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-3.6A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 66.04 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9afd57d2-df03-49db-adce-9cfc6cd79299")
+		)
+		(pin "3"
+			(uuid "bb4f0d5d-2e9c-4d9a-ad93-219dc97e8199")
+		)
+		(pin "2"
+			(uuid "b53fb935-f76d-40d2-afdd-8573aa1b1310")
+		)
+		(instances
+			(project ""
+				(path "/b49e0e20-ddc2-4eb4-9509-7721d6b2744b"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 52.07 208.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61b4110b-4d2d-4079-a904-99b697da9b84")
+		(property "Reference" "R11"
+			(at 54.61 207.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2M"
+			(at 54.61 209.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.848 208.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 52.07 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "254e73b5-5a7a-45a5-9b73-6b41cb20e21b")
+		)
+		(pin "2"
+			(uuid "c1ce03de-125e-488c-8cf6-54a5848b4586")
+		)
+		(instances
+			(project ""
+				(path "/b49e0e20-ddc2-4eb4-9509-7721d6b2744b"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_ARM_JTAG_SWD_10")
 		(at 355.6 201.93 270)
 		(unit 1)
@@ -11384,6 +11778,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 52.07 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d790e47-5079-42fc-818f-2fa81088ff0d")
+		(property "Reference" "#PWR016"
+			(at 52.07 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 52.07 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15c5d3f6-9c6f-4202-83d5-0b984d59adcc")
+		)
+		(instances
+			(project ""
+				(path "/b49e0e20-ddc2-4eb4-9509-7721d6b2744b"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CAP:12_pF_±2%_50V")
 		(at 134.62 30.48 270)
 		(unit 1)
@@ -11511,6 +11971,77 @@
 			(project "EMK"
 				(path "/b49e0e20-ddc2-4eb4-9509-7721d6b2744b"
 					(reference "GND04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Nidec_CAS-120A1")
+		(at 165.1 205.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a51db5e9-06f3-4b91-abe3-a2031572dcd6")
+		(property "Reference" "SW19"
+			(at 165.1 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Nidec_CAS-120A1"
+			(at 165.1 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 165.1 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+			(at 165.1 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 165.1 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73213040-a4cb-46e8-868b-43af5f921b8b")
+		)
+		(pin "3"
+			(uuid "537c5b54-a7b6-4bd9-950d-5f5beb4f6d0d")
+		)
+		(pin "2"
+			(uuid "6d0fc651-9851-4cc7-be47-73d141741e4d")
+		)
+		(instances
+			(project ""
+				(path "/b49e0e20-ddc2-4eb4-9509-7721d6b2744b"
+					(reference "SW19")
 					(unit 1)
 				)
 			)
@@ -13574,7 +14105,7 @@
 		)
 	)
 	(sheet
-		(at 113.03 173.99)
+		(at 125.095 252.095)
 		(size 89.535 22.86)
 		(fields_autoplaced yes)
 		(stroke
@@ -13586,7 +14117,7 @@
 		)
 		(uuid "743d83c9-8041-4f40-a705-55c698e78e02")
 		(property "Sheetname" "RGBs"
-			(at 113.03 173.2784 0)
+			(at 125.095 251.3834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13595,7 +14126,7 @@
 			)
 		)
 		(property "Sheetfile" "rgbs.kicad_sch"
-			(at 113.03 197.4346 0)
+			(at 125.095 275.5396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13612,7 +14143,7 @@
 		)
 	)
 	(sheet
-		(at 26.035 173.355)
+		(at 38.1 251.46)
 		(size 78.105 23.495)
 		(fields_autoplaced yes)
 		(stroke
@@ -13624,7 +14155,7 @@
 		)
 		(uuid "90573e6a-2071-45a5-b4f5-cb2cbec3a3e0")
 		(property "Sheetname" "Matriz"
-			(at 26.035 172.6434 0)
+			(at 38.1 250.7484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13633,7 +14164,7 @@
 			)
 		)
 		(property "Sheetfile" "matrix.kicad_sch"
-			(at 26.035 197.4346 0)
+			(at 38.1 275.5396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
