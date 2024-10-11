@@ -13574,8 +13574,46 @@
 		)
 	)
 	(sheet
-		(at 15.24 166.37)
-		(size 78.105 78.74)
+		(at 113.03 173.99)
+		(size 89.535 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "743d83c9-8041-4f40-a705-55c698e78e02")
+		(property "Sheetname" "RGBs"
+			(at 113.03 173.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rgbs.kicad_sch"
+			(at 113.03 197.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EMK"
+				(path "/b49e0e20-ddc2-4eb4-9509-7721d6b2744b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.035 173.355)
+		(size 78.105 23.495)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -13586,7 +13624,7 @@
 		)
 		(uuid "90573e6a-2071-45a5-b4f5-cb2cbec3a3e0")
 		(property "Sheetname" "Matriz"
-			(at 15.24 165.6584 0)
+			(at 26.035 172.6434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13594,14 +13632,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
-			(at 15.24 245.6946 0)
+		(property "Sheetfile" "matrix.kicad_sch"
+			(at 26.035 197.4346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(instances
