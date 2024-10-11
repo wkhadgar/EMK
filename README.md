@@ -3,5 +3,6 @@ EDGE Macro Keyboard using ZMK
 
 # BOM Link: https://docs.google.com/spreadsheets/d/1feDPUKi6qvB3Wog3a3WXaTfP1I-IvefD0QiZMtcDikI/edit?usp=sharing
 
-# Blocks Diagram:
-![image](https://github.com/user-attachments/assets/882220ef-ff7c-4e21-8f71-59a6c994550a)
+# Block Diagram:
+![image](https://github.com/user-attachments/assets/c88d66a1-e476-40ba-a607-1885e92de8bd)
+
