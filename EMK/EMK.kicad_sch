@@ -8618,7 +8618,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 123.19 143.51 0)
 			(effects
 				(font
@@ -8688,7 +8688,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 328.93 145.542 90)
 			(effects
 				(font
@@ -8969,7 +8969,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_7.3x7.3_H4.5"
 			(at 166.37 92.71 0)
 			(effects
 				(font
@@ -9038,7 +9038,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 146.05 132.08 0)
 			(effects
 				(font
@@ -9196,7 +9196,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "3991eac3-de2c-49fa-b63b-20537267ffc0")
-		(property "Reference" "GND03"
+		(property "Reference" "#GND03"
 			(at 36.83 93.98 0)
 			(effects
 				(font
@@ -9247,7 +9247,7 @@
 		(instances
 			(project "EMK"
 				(path "/b49e0e20-ddc2-4eb4-9509-7721d6b2744b"
-					(reference "GND03")
+					(reference "#GND03")
 					(unit 1)
 				)
 			)
@@ -9278,7 +9278,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 124.46 30.48 0)
 			(effects
 				(font
@@ -9346,7 +9346,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 90.932 40.64 90)
 			(effects
 				(font
@@ -9414,7 +9414,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 353.06 43.688 90)
 			(effects
 				(font
@@ -9484,7 +9484,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 125.222 90)
 			(effects
 				(font
@@ -9619,7 +9619,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
 			(at 142.24 55.88 0)
 			(effects
 				(font
@@ -9673,7 +9673,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "47057cdd-ad90-43e8-8dea-202a5959221a")
-		(property "Reference" "GND05"
+		(property "Reference" "#GND05"
 			(at 123.19 144.78 0)
 			(effects
 				(font
@@ -9724,7 +9724,7 @@
 		(instances
 			(project "EMK"
 				(path "/b49e0e20-ddc2-4eb4-9509-7721d6b2744b"
-					(reference "GND05")
+					(reference "#GND05")
 					(unit 1)
 				)
 			)
@@ -10083,7 +10083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52700347-1cc7-43d0-9a97-3981735fd3e3")
-		(property "Reference" "GND08"
+		(property "Reference" "#GND08"
 			(at 149.86 139.7 0)
 			(effects
 				(font
@@ -10134,7 +10134,7 @@
 		(instances
 			(project "EMK"
 				(path "/b49e0e20-ddc2-4eb4-9509-7721d6b2744b"
-					(reference "GND08")
+					(reference "#GND08")
 					(unit 1)
 				)
 			)
@@ -10311,7 +10311,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 53.848 208.28 90)
 			(effects
 				(font
@@ -10474,7 +10474,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 344.17 108.2548 0)
 			(effects
 				(font
@@ -10541,7 +10541,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 100.33 48.768 90)
 			(effects
 				(font
@@ -10611,7 +10611,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3S-1000"
 			(at 46.99 127 0)
 			(effects
 				(font
@@ -10679,7 +10679,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 179.07 100.33 0)
 			(effects
 				(font
@@ -10817,7 +10817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
 			(at 259.08 52.07 0)
 			(effects
 				(font
@@ -10869,7 +10869,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7813ea17-a47d-43d6-9fe0-955fbe6826c6")
-		(property "Reference" "GND010"
+		(property "Reference" "#GND010"
 			(at 383.54 57.15 0)
 			(effects
 				(font
@@ -10920,7 +10920,7 @@
 		(instances
 			(project ""
 				(path "/b49e0e20-ddc2-4eb4-9509-7721d6b2744b"
-					(reference "GND010")
+					(reference "#GND010")
 					(unit 1)
 				)
 			)
@@ -11106,7 +11106,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 336.55 143.51 0)
 			(effects
 				(font
@@ -11174,7 +11174,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 151.13 44.45 0)
 			(effects
 				(font
@@ -11242,7 +11242,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 267.97 200.66 0)
 			(effects
 				(font
@@ -11312,7 +11312,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 251.46 115.2652 0)
 			(effects
 				(font
@@ -11380,7 +11380,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 345.44 46.228 90)
 			(effects
 				(font
@@ -11517,7 +11517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "910c0b8f-7d64-4e10-841a-d776ff10b290")
-		(property "Reference" "GND09"
+		(property "Reference" "#GND09"
 			(at 179.07 104.14 0)
 			(effects
 				(font
@@ -11568,7 +11568,7 @@
 		(instances
 			(project "EMK"
 				(path "/b49e0e20-ddc2-4eb4-9509-7721d6b2744b"
-					(reference "GND09")
+					(reference "#GND09")
 					(unit 1)
 				)
 			)
@@ -11602,7 +11602,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 251.46 60.6552 0)
 			(effects
 				(font
@@ -11739,7 +11739,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 247.65 125.222 90)
 			(effects
 				(font
@@ -11809,7 +11809,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 345.44 118.618 90)
 			(effects
 				(font
@@ -12008,7 +12008,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 134.62 30.48 0)
 			(effects
 				(font
@@ -12059,7 +12059,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "a5186a39-e36f-496e-ad7c-2cdec07f1085")
-		(property "Reference" "GND04"
+		(property "Reference" "#GND04"
 			(at 128.27 128.27 0)
 			(effects
 				(font
@@ -12110,7 +12110,7 @@
 		(instances
 			(project "EMK"
 				(path "/b49e0e20-ddc2-4eb4-9509-7721d6b2744b"
-					(reference "GND04")
+					(reference "#GND04")
 					(unit 1)
 				)
 			)
@@ -12214,7 +12214,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 133.35 132.08 0)
 			(effects
 				(font
@@ -12282,7 +12282,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 158.75 78.74 0)
 			(effects
 				(font
@@ -12417,7 +12417,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 158.75 132.08 0)
 			(effects
 				(font
@@ -12486,7 +12486,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_7.3x7.3_H4.5"
 			(at 176.53 92.71 0)
 			(effects
 				(font
@@ -12556,7 +12556,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 247.65 139.3952 0)
 			(effects
 				(font
@@ -12623,7 +12623,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 118.11 127 0)
 			(effects
 				(font
@@ -12693,7 +12693,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 341.63 143.51 0)
 			(effects
 				(font
@@ -12744,7 +12744,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "b9bddd92-e23e-48de-87e3-681464a1c9f7")
-		(property "Reference" "GND02"
+		(property "Reference" "#GND02"
 			(at 156.21 34.29 0)
 			(effects
 				(font
@@ -12795,7 +12795,7 @@
 		(instances
 			(project "EMK"
 				(path "/b49e0e20-ddc2-4eb4-9509-7721d6b2744b"
-					(reference "GND02")
+					(reference "#GND02")
 					(unit 1)
 				)
 			)
@@ -12826,7 +12826,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 132.08 127 0)
 			(effects
 				(font
@@ -13026,7 +13026,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "cc48100f-f8bb-49c3-b39d-ce679600d987")
-		(property "Reference" "GND06"
+		(property "Reference" "#GND06"
 			(at 118.11 128.27 0)
 			(effects
 				(font
@@ -13077,7 +13077,7 @@
 		(instances
 			(project "EMK"
 				(path "/b49e0e20-ddc2-4eb4-9509-7721d6b2744b"
-					(reference "GND06")
+					(reference "#GND06")
 					(unit 1)
 				)
 			)
@@ -13108,7 +13108,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 143.51 44.45 0)
 			(effects
 				(font
@@ -13227,7 +13227,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d550d8e1-2371-4f4a-9910-78ba350605dc")
-		(property "Reference" "GND07"
+		(property "Reference" "#GND07"
 			(at 182.88 66.04 0)
 			(effects
 				(font
@@ -13278,7 +13278,7 @@
 		(instances
 			(project "EMK"
 				(path "/b49e0e20-ddc2-4eb4-9509-7721d6b2744b"
-					(reference "GND07")
+					(reference "#GND07")
 					(unit 1)
 				)
 			)
@@ -13585,7 +13585,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 260.0452 208.28 0)
 			(effects
 				(font
@@ -13655,7 +13655,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 240.9952 208.28 0)
 			(effects
 				(font
@@ -13723,7 +13723,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 173.99 78.74 0)
 			(effects
 				(font
@@ -13774,7 +13774,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "edb33166-fb42-40db-9869-90cad94912ce")
-		(property "Reference" "GND01"
+		(property "Reference" "#GND01"
 			(at 140.97 20.32 0)
 			(effects
 				(font
@@ -13825,7 +13825,7 @@
 		(instances
 			(project "EMK"
 				(path "/b49e0e20-ddc2-4eb4-9509-7721d6b2744b"
-					(reference "GND01")
+					(reference "#GND01")
 					(unit 1)
 				)
 			)
@@ -13857,7 +13857,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_7.3x7.3_H4.5"
 			(at 259.08 109.22 0)
 			(effects
 				(font
@@ -13925,7 +13925,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metrica"
 			(at 248.92 202.438 90)
 			(effects
 				(font
@@ -13995,7 +13995,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 251.46 73.3552 0)
 			(effects
 				(font
@@ -14132,7 +14132,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 280.3652 208.28 0)
 			(effects
 				(font
@@ -14202,7 +14202,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 42.672 90)
 			(effects
 				(font

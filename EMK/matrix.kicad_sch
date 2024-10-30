@@ -1549,7 +1549,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_Plate"
 			(at 29.21 63.5 0)
 			(effects
 				(font
@@ -1620,7 +1620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 80.01 74.93 0)
 			(effects
 				(font
@@ -1707,7 +1707,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_Plate"
 			(at 29.21 83.82 0)
 			(effects
 				(font
@@ -1778,7 +1778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 34.29 31.75 0)
 			(effects
 				(font
@@ -1865,7 +1865,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_Plate"
 			(at 74.93 63.5 0)
 			(effects
 				(font
@@ -1936,7 +1936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 64.77 31.75 0)
 			(effects
 				(font
@@ -2023,7 +2023,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_Plate"
 			(at 59.69 63.5 0)
 			(effects
 				(font
@@ -2094,7 +2094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 64.77 74.93 0)
 			(effects
 				(font
@@ -2183,7 +2183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 64.77 54.61 0)
 			(effects
 				(font
@@ -2272,7 +2272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 34.29 97.79 0)
 			(effects
 				(font
@@ -2361,7 +2361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 80.01 54.61 0)
 			(effects
 				(font
@@ -2448,7 +2448,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_Plate"
 			(at 74.93 83.82 0)
 			(effects
 				(font
@@ -2519,7 +2519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 49.53 31.75 0)
 			(effects
 				(font
@@ -2608,7 +2608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 80.01 97.79 0)
 			(effects
 				(font
@@ -2695,7 +2695,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_Plate"
 			(at 59.69 106.68 0)
 			(effects
 				(font
@@ -2766,7 +2766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 49.53 54.61 0)
 			(effects
 				(font
@@ -2855,7 +2855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 49.53 74.93 0)
 			(effects
 				(font
@@ -2944,7 +2944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 64.77 97.79 0)
 			(effects
 				(font
@@ -3033,7 +3033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 49.53 97.79 0)
 			(effects
 				(font
@@ -3122,7 +3122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 80.01 31.75 0)
 			(effects
 				(font
@@ -3209,7 +3209,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_Plate"
 			(at 59.69 40.64 0)
 			(effects
 				(font
@@ -3278,7 +3278,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_Plate"
 			(at 44.45 106.68 0)
 			(effects
 				(font
@@ -3347,7 +3347,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_Plate"
 			(at 44.45 40.64 0)
 			(effects
 				(font
@@ -3416,7 +3416,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_Plate"
 			(at 44.45 63.5 0)
 			(effects
 				(font
@@ -3487,7 +3487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 34.29 74.93 0)
 			(effects
 				(font
@@ -3574,7 +3574,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_Plate"
 			(at 44.45 83.82 0)
 			(effects
 				(font
@@ -3642,7 +3642,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 128.27 72.898 90)
 			(effects
 				(font
@@ -3711,7 +3711,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_Plate"
 			(at 29.21 40.64 0)
 			(effects
 				(font
@@ -3780,7 +3780,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_Plate"
 			(at 59.69 83.82 0)
 			(effects
 				(font
@@ -3935,7 +3935,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_Plate"
 			(at 74.93 40.64 0)
 			(effects
 				(font
@@ -4004,7 +4004,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_Plate"
 			(at 29.21 106.68 0)
 			(effects
 				(font
@@ -4075,7 +4075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 34.29 54.61 0)
 			(effects
 				(font
@@ -4162,7 +4162,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_Plate"
 			(at 74.93 106.68 0)
 			(effects
 				(font
