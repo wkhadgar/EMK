@@ -1045,6 +1045,114 @@
 				)
 			)
 		)
+		(symbol "Device:Antenna"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "AE"
+				(at -1.905 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "Antenna"
+				(at -1.905 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Antenna"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "antenna"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Antenna_0_1"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0 -2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Antenna_1_1"
+				(pin input line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -6259,6 +6367,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 200.66) (xy 240.03 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "489caa06-7b34-4353-a69e-4d9e0a2a6c76")
+	)
+	(wire
+		(pts
 			(xy 31.75 86.36) (xy 36.83 86.36)
 		)
 		(stroke
@@ -6859,16 +6977,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 200.66) (xy 240.03 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ff0f55a-07c1-4f67-aac2-092769f63f6d")
-	)
-	(wire
-		(pts
 			(xy 179.07 92.71) (xy 179.07 97.79)
 		)
 		(stroke
@@ -6906,6 +7014,16 @@
 			(type default)
 		)
 		(uuid "ac0a36b9-e5d7-47d9-8cf8-9827e39b88fb")
+	)
+	(wire
+		(pts
+			(xy 226.06 200.66) (xy 226.06 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac4d7ea3-62f4-468b-96a6-bc99651e7103")
 	)
 	(wire
 		(pts
@@ -8329,28 +8447,6 @@
 			)
 		)
 	)
-	(global_label "ANT_TRACE"
-		(shape input)
-		(at 232.41 200.66 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c272ea61-618c-483e-89f8-22698b03ae64")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.3253 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VBUS"
 		(shape input)
 		(at 383.54 45.72 90)
@@ -8900,7 +8996,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_AT310_D3.0mm_L10.0mm_Horizontal"
+		(property "Footprint" "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm"
 			(at 124.46 43.18 0)
 			(effects
 				(font
@@ -10278,6 +10374,73 @@
 			(project ""
 				(path "/b49e0e20-ddc2-4eb4-9509-7721d6b2744b"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Antenna")
+		(at 226.06 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60abcfb7-92d3-486a-8e89-48bc536ce680")
+		(property "Reference" "AE1"
+			(at 228.6 184.7849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Antenna"
+			(at 228.6 187.3249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RF_Antenna:Johanson_2450AT43F0100"
+			(at 226.06 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Antenna"
+			(at 226.06 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9cf8588a-158a-4364-834f-c0eed4efba6e")
+		)
+		(instances
+			(project ""
+				(path "/b49e0e20-ddc2-4eb4-9509-7721d6b2744b"
+					(reference "AE1")
 					(unit 1)
 				)
 			)
@@ -13925,7 +14088,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metrica"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 248.92 202.438 90)
 			(effects
 				(font
