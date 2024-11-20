@@ -3848,7 +3848,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED:MODE-SWITCH-SLW12745474ARAD"
 			(at 125.095 56.515 0)
 			(effects
 				(font
