@@ -5518,6 +5518,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 133.35) (xy 76.2 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "168c502f-638e-435d-a2f3-537e67dd4d62")
+	)
+	(wire
+		(pts
 			(xy 146.05 41.91) (xy 146.05 35.56)
 		)
 		(stroke
@@ -5898,16 +5908,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 43.18) (xy 85.09 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57d27202-e23f-4379-a0a6-c4941d8c3b94")
-	)
-	(wire
-		(pts
 			(xy 355.6 109.22) (xy 344.17 109.22)
 		)
 		(stroke
@@ -6228,6 +6228,26 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 118.11) (xy 74.93 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8379a7a7-094d-430b-8aae-520d9a6038b8")
+	)
+	(wire
+		(pts
+			(xy 69.85 139.7) (xy 69.85 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83b1012b-05cf-438e-8525-fb176b3e40dd")
+	)
+	(wire
+		(pts
 			(xy 336.55 109.22) (xy 336.55 118.11)
 		)
 		(stroke
@@ -6265,16 +6285,6 @@
 			(type default)
 		)
 		(uuid "89abb027-4e91-4155-8b2b-4fcc03094bd1")
-	)
-	(wire
-		(pts
-			(xy 87.63 53.34) (xy 87.63 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b1506de-7847-4403-a45b-d83ec38cae86")
 	)
 	(wire
 		(pts
@@ -6448,16 +6458,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 49.53) (xy 80.01 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aeee53d7-9f3c-4e86-901e-3761eb243d3c")
-	)
-	(wire
-		(pts
 			(xy 151.13 120.65) (xy 151.13 123.19)
 		)
 		(stroke
@@ -6515,16 +6515,6 @@
 			(type default)
 		)
 		(uuid "bc97e7d9-260b-450d-9b51-a14ed23075e9")
-	)
-	(wire
-		(pts
-			(xy 52.07 49.53) (xy 52.07 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd77f69e-bbb1-47d1-b1d4-d2d076f8a353")
 	)
 	(wire
 		(pts
@@ -6775,6 +6765,16 @@
 			(type default)
 		)
 		(uuid "ec0d3eeb-f660-4536-99b1-fa432d07e328")
+	)
+	(wire
+		(pts
+			(xy 72.39 127) (xy 72.39 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef56c1d0-01ba-432c-9cff-01e1db3a9325")
 	)
 	(wire
 		(pts
@@ -7184,28 +7184,6 @@
 			)
 		)
 	)
-	(global_label "MATRIX_M2"
-		(shape input)
-		(at 82.55 62.23 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0fd57f6f-8c89-4c99-adae-56de5fef088b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.55 49.0244 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VBAT"
 		(shape input)
 		(at 389.89 128.27 270)
@@ -7252,7 +7230,7 @@
 	)
 	(global_label "RGB_SIG"
 		(shape input)
-		(at 52.07 49.53 90)
+		(at 87.63 62.23 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7262,7 +7240,7 @@
 		)
 		(uuid "16aff0c3-244f-4b09-b95b-c485df0be8d6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.07 38.6829 90)
+			(at 87.63 51.3829 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7296,22 +7274,22 @@
 	)
 	(global_label "MATRIX_M1"
 		(shape input)
-		(at 80.01 49.53 90)
+		(at 69.85 139.7 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "2afdf507-03d6-4eb3-9796-27300551e34e")
+		(uuid "27368a80-a7bf-4887-9c62-ee578ef7e0e6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.01 36.3244 90)
+			(at 69.85 152.9056 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7514,28 +7492,6 @@
 			)
 		)
 	)
-	(global_label "MATRIX_M3"
-		(shape input)
-		(at 85.09 43.18 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "75906499-41a6-4af0-b9ab-f6a8c6990e7f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.09 29.9744 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "RGB_ON"
 		(shape input)
 		(at 48.26 204.47 180)
@@ -7602,24 +7558,24 @@
 			)
 		)
 	)
-	(global_label "ROW2"
+	(global_label "MATRIX_M2"
 		(shape input)
-		(at 72.39 62.23 90)
+		(at 72.39 127 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "8f616015-b97e-4882-a5b4-38550c9b8179")
+		(uuid "922a5458-516d-45bd-986b-c12de2d72f15")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.39 53.9834 90)
+			(at 72.39 140.2056 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7690,6 +7646,28 @@
 			)
 		)
 	)
+	(global_label "MATRIX_M3"
+		(shape input)
+		(at 76.2 133.35 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a2fe6998-45c2-402f-9685-b75a32066449")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.2 146.5556 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VBUS"
 		(shape input)
 		(at 318.77 128.27 180)
@@ -7736,7 +7714,7 @@
 	)
 	(global_label "RGB_ON"
 		(shape input)
-		(at 87.63 53.34 90)
+		(at 52.07 62.23 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7746,7 +7724,7 @@
 		)
 		(uuid "b9129862-f334-4629-b454-263c191ec66b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.63 42.9162 90)
+			(at 52.07 51.8062 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10866,7 +10844,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 237.49 200.66 0)
 			(effects
 				(font
@@ -12987,7 +12965,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 262.89 199.6948 0)
 			(effects
 				(font
@@ -13125,7 +13103,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 245.11 204.47 0)
 			(effects
 				(font
