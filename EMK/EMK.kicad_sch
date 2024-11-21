@@ -10836,7 +10836,7 @@
 				)
 			)
 		)
-		(property "Value" "3.9nH"
+		(property "Value" "3.3nH"
 			(at 237.49 198.12 90)
 			(effects
 				(font
@@ -12957,7 +12957,7 @@
 				)
 			)
 		)
-		(property "Value" "1pF"
+		(property "Value" "1.2pF"
 			(at 259.08 195.58 90)
 			(effects
 				(font
